@@ -1,0 +1,16 @@
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(5)
+    basic.showNumber(4)
+    basic.showNumber(3)
+    basic.showNumber(2)
+    basic.showNumber(1)
+    basic.showString("Go!")
+    basic.pause(2000)
+    basic.showIcon(IconNames.No)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showString("5 4 3 2 1")
+    basic.showString("Go!")
+    basic.pause(2000)
+    basic.showIcon(IconNames.No)
+})
